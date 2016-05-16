@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Generador de KML</name>
+<Style id="rosa"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="rojo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="azul"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="verde"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="cielo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="blanco"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="amarillo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="morado"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="A"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/A.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="B"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/B.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="C"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/C.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="D"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/D.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="E"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/E.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="F"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/F.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="G"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/G.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="H"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/H.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="I"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/I.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="J"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/J.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="K"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/K.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="L"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/L.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="M"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/M.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="N"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/N.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="O"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/O.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="P"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/P.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Q"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Q.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="R"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/R.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="S"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/S.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="T"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/T.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="U"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/U.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="V"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/V.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="W"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/W.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="X"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/X.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Y"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Y.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Z"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Z.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="1"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/1.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="2"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/2.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="3"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/3.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="4"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/4.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="5"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/5.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="6"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/6.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="7"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/7.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="8"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/8.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="9"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/9.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="10"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/10.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Folder>
+<name>Prueba ITAM</name>
+
+<Placemark>
+<name>Avion2</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.4445528,0.0 
+-99.19861140056594,19.443935519083887,0.0 
+-99.1940252,19.44212574300988,0.0 
+-99.19008694029166,19.43924680502662,0.0 
+-99.1870650073318,19.4354949,0.0 
+-99.18516534085761,19.43112571405727,0.0 
+-99.18451739999999,19.426437,0.0 
+-99.18516534085761,19.42174828594273,0.0 
+-99.1870650073318,19.4173791,0.0 
+-99.19008694029166,19.41362719497338,0.0 
+-99.1940252,19.41074825699012,0.0 
+-99.19861140056594,19.408938480916113,0.0 
+-99.203533,19.4083212,0.0 
+-99.20845459943405,19.408938480916113,0.0 
+-99.21304079999999,19.41074825699012,0.0 
+-99.21697905970832,19.41362719497338,0.0 
+-99.22000099266819,19.4173791,0.0 
+-99.22190065914238,19.42174828594273,0.0 
+-99.2225486,19.426437,0.0 
+-99.22190065914238,19.43112571405727,0.0 
+-99.22000099266819,19.4354949,0.0 
+-99.21697905970832,19.43924680502662,0.0 
+-99.21304079999999,19.44212574300988,0.0 
+-99.20845459943405,19.443935519083887,0.0 
+-99.203533,19.4445528,0.0 
+-99.203533,19.4445528,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion4</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.4626686,0.0 
+-99.1936898011319,19.461434038167774,0.0 
+-99.18451739999999,19.457814486019757,0.0 
+-99.17664088058334,19.452056610053237,0.0 
+-99.17059701466358,19.4445528,0.0 
+-99.16679768171522,19.435814428114536,0.0 
+-99.16550179999999,19.426437,0.0 
+-99.16679768171522,19.417059571885463,0.0 
+-99.17059701466358,19.4083212,0.0 
+-99.17664088058334,19.400817389946763,0.0 
+-99.18451739999999,19.395059513980243,0.0 
+-99.1936898011319,19.391439961832226,0.0 
+-99.203533,19.3902054,0.0 
+-99.21337619886809,19.391439961832226,0.0 
+-99.2225486,19.395059513980243,0.0 
+-99.23042511941665,19.400817389946763,0.0 
+-99.2364689853364,19.4083212,0.0 
+-99.24026831828476,19.417059571885463,0.0 
+-99.2415642,19.426437,0.0 
+-99.24026831828476,19.435814428114536,0.0 
+-99.2364689853364,19.4445528,0.0 
+-99.23042511941665,19.452056610053237,0.0 
+-99.2225486,19.457814486019757,0.0 
+-99.21337619886809,19.461434038167774,0.0 
+-99.203533,19.4626686,0.0 
+-99.203533,19.4626686,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion8</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.4989002,0.0 
+-99.18384660226378,19.49643107633555,0.0 
+-99.16550179999999,19.489191972039514,0.0 
+-99.14974876116666,19.477676220106478,0.0 
+-99.13766102932718,19.4626686,0.0 
+-99.13006236343047,19.445191856229073,0.0 
+-99.1274706,19.426437,0.0 
+-99.13006236343047,19.407682143770927,0.0 
+-99.13766102932718,19.3902054,0.0 
+-99.14974876116666,19.375197779893522,0.0 
+-99.16550179999999,19.363682027960486,0.0 
+-99.18384660226378,19.35644292366445,0.0 
+-99.203533,19.3539738,0.0 
+-99.2232193977362,19.35644292366445,0.0 
+-99.2415642,19.363682027960486,0.0 
+-99.25731723883332,19.375197779893522,0.0 
+-99.26940497067281,19.3902054,0.0 
+-99.27700363656952,19.407682143770927,0.0 
+-99.27959539999999,19.426437,0.0 
+-99.27700363656952,19.445191856229073,0.0 
+-99.26940497067281,19.4626686,0.0 
+-99.25731723883332,19.477676220106478,0.0 
+-99.2415642,19.489191972039514,0.0 
+-99.2232193977362,19.49643107633555,0.0 
+-99.203533,19.4989002,0.0 
+-99.203533,19.4989002,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion10</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.517016,0.0 
+-99.17892500282973,19.513929595419437,0.0 
+-99.15599399999999,19.504880715049392,0.0 
+-99.13630270145833,19.490486025133094,0.0 
+-99.12119303665898,19.4717265,0.0 
+-99.11169470428808,19.449880570286343,0.0 
+-99.10845499999999,19.426437,0.0 
+-99.11169470428808,19.402993429713657,0.0 
+-99.12119303665898,19.3811475,0.0 
+-99.13630270145833,19.362387974866905,0.0 
+-99.15599399999999,19.347993284950608,0.0 
+-99.17892500282973,19.338944404580563,0.0 
+-99.203533,19.335857999999998,0.0 
+-99.22814099717026,19.338944404580563,0.0 
+-99.251072,19.347993284950608,0.0 
+-99.27076329854165,19.362387974866905,0.0 
+-99.285872963341,19.3811475,0.0 
+-99.2953712957119,19.402993429713657,0.0 
+-99.298611,19.426437,0.0 
+-99.2953712957119,19.449880570286343,0.0 
+-99.285872963341,19.4717265,0.0 
+-99.27076329854165,19.490486025133094,0.0 
+-99.251072,19.504880715049392,0.0 
+-99.22814099717026,19.513929595419437,0.0 
+-99.203533,19.517016,0.0 
+-99.203533,19.517016,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion12</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.5351318,0.0 
+-99.17400340339569,19.531428114503324,0.0 
+-99.1464862,19.520569458059267,0.0 
+-99.12285664175,19.503295830159715,0.0 
+-99.10472504399077,19.4807844,0.0 
+-99.0933270451457,19.45456928434361,0.0 
+-99.08943939999999,19.426437,0.0 
+-99.0933270451457,19.39830471565639,0.0 
+-99.10472504399077,19.3720896,0.0 
+-99.12285664175,19.349578169840285,0.0 
+-99.1464862,19.332304541940733,0.0 
+-99.17400340339569,19.321445885496676,0.0 
+-99.203533,19.3177422,0.0 
+-99.2330625966043,19.321445885496676,0.0 
+-99.26057979999999,19.332304541940733,0.0 
+-99.28420935824998,19.349578169840285,0.0 
+-99.30234095600922,19.3720896,0.0 
+-99.31373895485429,19.39830471565639,0.0 
+-99.3176266,19.426437,0.0 
+-99.31373895485429,19.45456928434361,0.0 
+-99.30234095600922,19.4807844,0.0 
+-99.28420935824998,19.503295830159715,0.0 
+-99.26057979999999,19.520569458059267,0.0 
+-99.2330625966043,19.531428114503324,0.0 
+-99.203533,19.5351318,0.0 
+-99.203533,19.5351318,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion14</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.5532476,0.0 
+-99.16908180396163,19.54892663358721,0.0 
+-99.13697839999999,19.536258201069145,0.0 
+-99.10941058204168,19.516105635186335,0.0 
+-99.08825705132257,19.4898423,0.0 
+-99.07495938600331,19.45925799840088,0.0 
+-99.07042379999999,19.426437,0.0 
+-99.07495938600331,19.39361600159912,0.0 
+-99.08825705132257,19.3630317,0.0 
+-99.10941058204168,19.336768364813665,0.0 
+-99.13697839999999,19.316615798930854,0.0 
+-99.16908180396163,19.30394736641279,0.0 
+-99.203533,19.2996264,0.0 
+-99.23798419603835,19.30394736641279,0.0 
+-99.2700876,19.316615798930854,0.0 
+-99.29765541795831,19.336768364813665,0.0 
+-99.31880894867741,19.3630317,0.0 
+-99.33210661399667,19.39361600159912,0.0 
+-99.3366422,19.426437,0.0 
+-99.33210661399667,19.45925799840088,0.0 
+-99.31880894867741,19.4898423,0.0 
+-99.29765541795831,19.516105635186335,0.0 
+-99.2700876,19.536258201069145,0.0 
+-99.23798419603835,19.54892663358721,0.0 
+-99.203533,19.5532476,0.0 
+-99.203533,19.5532476,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion6</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.4807844,0.0 
+-99.18876820169784,19.478932557251664,0.0 
+-99.1750096,19.473503229029635,0.0 
+-99.163194820875,19.464866415079857,0.0 
+-99.15412902199539,19.4536107,0.0 
+-99.14843002257284,19.440503142171806,0.0 
+-99.1464862,19.426437,0.0 
+-99.14843002257284,19.412370857828193,0.0 
+-99.15412902199539,19.3992633,0.0 
+-99.163194820875,19.388007584920143,0.0 
+-99.1750096,19.379370770970365,0.0 
+-99.18876820169784,19.373941442748336,0.0 
+-99.203533,19.3720896,0.0 
+-99.21829779830215,19.373941442748336,0.0 
+-99.23205639999999,19.379370770970365,0.0 
+-99.24387117912498,19.388007584920143,0.0 
+-99.2529369780046,19.3992633,0.0 
+-99.25863597742715,19.412370857828193,0.0 
+-99.26057979999999,19.426437,0.0 
+-99.25863597742715,19.440503142171806,0.0 
+-99.2529369780046,19.4536107,0.0 
+-99.24387117912498,19.464866415079857,0.0 
+-99.23205639999999,19.473503229029635,0.0 
+-99.21829779830215,19.478932557251664,0.0 
+-99.203533,19.4807844,0.0 
+-99.203533,19.4807844,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Oaxaca</name>
+<description>
+Erika Places</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-96.716667,17.140579000000002,0.0 
+-96.69205900282974,17.137492595419438,0.0 
+-96.669128,17.128443715049393,0.0 
+-96.64943670145834,17.1140490251331,0.0 
+-96.63432703665899,17.0952895,0.0 
+-96.62482870428809,17.073443570286344,0.0 
+-96.621589,17.05,0.0 
+-96.62482870428809,17.026556429713658,0.0 
+-96.63432703665899,17.0047105,0.0 
+-96.64943670145834,16.985950974866903,0.0 
+-96.669128,16.97155628495061,0.0 
+-96.69205900282974,16.962507404580563,0.0 
+-96.716667,16.959421,0.0 
+-96.74127499717027,16.962507404580563,0.0 
+-96.764206,16.97155628495061,0.0 
+-96.78389729854166,16.985950974866906,0.0 
+-96.79900696334101,17.0047105,0.0 
+-96.80850529571191,17.026556429713658,0.0 
+-96.811745,17.05,0.0 
+-96.80850529571191,17.073443570286344,0.0 
+-96.79900696334101,17.0952895,0.0 
+-96.78389729854166,17.114049025133095,0.0 
+-96.764206,17.128443715049393,0.0 
+-96.74127499717027,17.137492595419438,0.0 
+-96.716667,17.140579000000002,0.0 
+-96.716667,17.140579000000002,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Avion Real</name>
+<description>
+Lugar Cero</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-99.203533,19.43277753,0.0 
+-99.20181044019807,19.43256148167936,0.0 
+-99.20020527,19.43192806005346,0.0 
+-99.19882687910207,19.430920431759315,0.0 
+-99.19776920256612,19.429607265,0.0 
+-99.19710431930017,19.428078049920043,0.0 
+-99.19687753999999,19.426437,0.0 
+-99.19710431930017,19.424795950079957,0.0 
+-99.19776920256612,19.423266735,0.0 
+-99.19882687910207,19.421953568240685,0.0 
+-99.20020527,19.42094593994654,0.0 
+-99.20181044019807,19.42031251832064,0.0 
+-99.203533,19.42009647,0.0 
+-99.20525555980191,19.42031251832064,0.0 
+-99.20686072999999,19.42094593994654,0.0 
+-99.20823912089791,19.421953568240685,0.0 
+-99.20929679743386,19.423266735,0.0 
+-99.20996168069982,19.424795950079957,0.0 
+-99.21018846,19.426437,0.0 
+-99.20996168069982,19.428078049920043,0.0 
+-99.20929679743386,19.429607265,0.0 
+-99.20823912089791,19.430920431759315,0.0 
+-99.20686072999999,19.43192806005346,0.0 
+-99.20525555980191,19.43256148167936,0.0 
+-99.203533,19.43277753,0.0 
+-99.203533,19.43277753,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+</Folder>
+</Document>
+</kml>

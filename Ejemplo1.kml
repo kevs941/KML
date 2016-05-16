@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Generador de KML</name>
+<Style id="rosa"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="rojo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="azul"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="verde"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="cielo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="blanco"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="amarillo"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="morado"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="A"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/A.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="B"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/B.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="C"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/C.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="D"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/D.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="E"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/E.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="F"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/F.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="G"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/G.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="H"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/H.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="I"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/I.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="J"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/J.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="K"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/K.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="L"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/L.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="M"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/M.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="N"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/N.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="O"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/O.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="P"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/P.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Q"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Q.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="R"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/R.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="S"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/S.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="T"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/T.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="U"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/U.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="V"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/V.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="W"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/W.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="X"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/X.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Y"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Y.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="Z"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/Z.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="1"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/1.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="2"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/2.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="3"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/3.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="4"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/4.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="5"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/5.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="6"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/6.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="7"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/7.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="8"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/8.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="9"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/9.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Style id="10"><IconStyle><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/10.png</href></Icon><hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/></IconStyle></Style>
+<Folder>
+<name>Prueba ITAM</name>
+
+<Placemark>
+<name>
+AGS</name>
+<description>
+Aguscalientes</description>
+<LookAt>
+<longitude>
+-102.572698</longitude>
+<latitude>
+21.372363</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-102.572698,
+21.372363,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+DF</name>
+<description>
+Mexico DF</description>
+<LookAt>
+<longitude>
+-99.123055</longitude>
+<latitude>
+19.407365</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-99.123055,
+19.407365,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+GDL</name>
+<description>
+Guadalajara</description>
+<LookAt>
+<longitude>
+-103.3449</longitude>
+<latitude>
+20.68019</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-103.3449,
+20.68019,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+LEON</name>
+<description>
+Leon</description>
+<LookAt>
+<longitude>
+-101.681385</longitude>
+<latitude>
+21.134339</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-101.681385,
+21.134339,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+MTY</name>
+<description>
+Monterrey</description>
+<LookAt>
+<longitude>
+-100.439763</longitude>
+<latitude>
+25.629322</latitude>
+<altitude>
+0.0</altitude>
+<range></range>
+<tilt>0</tilt>
+<heading></heading>
+</LookAt>
+<styleUrl>amarillo</styleUrl>
+<Point>
+<coordinates>
+-100.439763,
+25.629322,
+0.0</coordinates>
+</Point>
+</Placemark><Placemark>
+<name>
+mex-pue</name>
+<description>
+Mexico DF a Puebla</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>-99.1299974699264,19.40729921527133,0.0 
+-99.04595678052775,19.38860983049171,0.0 
+-98.99383861251985,19.34434168863967,0.0 
+-98.93845492831623,19.30479282654815,0.0 
+-98.88447962147329,19.28842051554494,0.0 
+-98.80418691863403,19.30694126093923,0.0 
+-98.76484917171187,19.29997849725564,0.0 
+-98.71823398012272,19.32644953350085,0.0 
+-98.65688898005898,19.34825728806624,0.0 
+-98.57967638443534,19.33414781384458,0.0 
+-98.50490472358487,19.31190541976833,0.0 
+-98.35378312579671,19.20649739645719,0.0 
+-98.27340915490481,19.13720296904216,0.0 
+-98.23876718988046,19.10076733371515,0.0 
+-98.21170933735793,19.04570600618732,0.0 
+</coordinates>
+</LineString>
+</Placemark><Placemark>
+<name>
+mex-mi</name>
+<description>
+Mexico DF a Miami</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>-99.1299974699264,19.40729921527133,0.0 
+-80.290276,25.79305599999999,0.0 
+</coordinates>
+</LineString>
+</Placemark><Placemark>
+<name>Bja</name>
+<description>
+Baja California Sur y Norte</description>
+<styleUrl>#msn_ylw-pushpin</styleUrl>
+<Polygon>
+<extrude>1</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-116.9552625103293,31.97982153432476,0.0 
+-116.2120454895624,30.79347683200897,0.0 
+-115.893629883124,30.23750072764453,0.0 
+-115.6795220822452,29.77756520358501,0.0 
+-114.5319104742608,28.91536717735578,0.0 
+-114.1215762257388,28.47866061488542,0.0 
+-114.0722843214352,28.05898666844476,0.0 
+-114.3812733428488,27.84178668612633,0.0 
+-114.6933068160699,27.81034846793961,0.0 
+-115.032480274841,27.82650840695916,0.0 
+-115.2707095627808,27.8184679950164,0.0 
+-113.7135020371789,26.73207394848614,0.0 
+-113.2114526289719,26.72980063941649,0.0 
+-112.3191286189678,25.97516713562953,0.0 
+-112.1343101662334,25.37298367885211,0.0 
+-112.2109340645369,24.9332301292927,0.0 
+-112.3410782594341,24.67728159946786,0.0 
+-111.2860479343832,24.17754203735663,0.0 
+-110.5757199452759,23.67085193141081,0.0 
+-110.1299195452408,23.17005324720765,0.0 
+-109.9402200472251,22.89680256573869,0.0 
+-109.4020552546647,23.30143814444932,0.0 
+-109.4117323606138,23.42055422807433,0.0 
+-110.2405766704098,24.25689882327558,0.0 
+-110.4588910826288,24.2044412665478,0.0 
+-110.6895724606759,24.49023380785207,0.0 
+-110.6449974523207,24.81603970220832,0.0 
+-111.3549138948123,25.9202146623106,0.0 
+-111.774927594173,26.81187190692745,0.0 
+-112.5369124214509,27.69355801367506,0.0 
+-112.8517364469268,28.44970470970045,0.0 
+-113.709768763687,29.40816000146987,0.0 
+-114.4143573846484,29.8530340404699,0.0 
+-114.6696182480812,30.48194863620152,0.0 
+-114.7181089489713,30.97467168861181,0.0 
+-114.8425367433406,31.73644919741151,0.0 
+-114.9338389169656,31.87445037045848,0.0 
+-116.9552625103293,31.97982153432476,0.0 
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+</Folder>
+</Document>
+</kml>

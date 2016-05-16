@@ -1,0 +1,112 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package kml;
+
+import Utilidades.GeneraXML;
+import Utilidades.GeoNames;
+import Utilidades.Punto;
+import java.io.*;
+import java.sql.*;
+import java.util.Vector;
+
+public class EjemploLDAP
+{
+
+   public static void main(String[] args)  {
+	try { 
+	    PrintWriter escribir = new PrintWriter(new BufferedWriter(new FileWriter("LDAP.kml")));
+		
+            escribir.println(GeneraXML.Inicio());
+            escribir.println(GeneraXML.openFolder("Datos"));
+            escribir.println(procesa());
+            escribir.println(GeneraXML.closeFolder());
+            escribir.println(GeneraXML.Fin());
+
+            escribir.close();
+            System.out.println("Listo!!");
+	} catch (Exception e) { 
+	    System.out.println(e);
+	}
+   }
+
+   public static String procesa() {
+       String Salida="";
+       int i=0;
+       
+        try {
+         
+           String db = ".\\Demo.accdb";
+           String url = "jdbc:odbc:MS Access Database;DBQ=" + db;
+
+           Class.forName ("sun.jdbc.odbc.JdbcOdbcDriver");
+           Connection con = DriverManager.getConnection (url, "", "");
+           
+           String ciudadA="";
+           String posA="";
+           Punto p=new Punto("0,0,0");
+
+
+           Statement select = con.createStatement();
+           ResultSet consulta = select.executeQuery("SELECT * FROM f_personas order by cve_pais,ciudad");
+           boolean seguir = consulta.next();
+           while (seguir) {
+               String nombre=consulta.getString("nombre");
+               String ciudad=consulta.getString("Ciudad");
+               String pais=consulta.getString("cve_pais");
+               if (ciudad == null) {
+                   ciudad="";
+               }
+               if (!ciudad.equalsIgnoreCase(ciudadA)) {
+                   Salida=Salida+GeneraXML.closeFolder();
+                   Salida=Salida+GeneraXML.openFolder(ciudad);
+                   posA=GeoNames.BuscaUbicacion(ciudad,pais);
+                   p = new Punto(posA);
+               }
+               //posA=GeoNames.BuscaUbicacion(ciudad,pais);
+               if (!p.toString().equalsIgnoreCase("0.0,0.0,0.0 ")) {
+                   //System.out.println(ciudad+" "+p);
+                   Salida=Salida+GeneraXML.addPunto(nombre,ciudad+" en "+pais,p,nombre.substring(0, 1).toUpperCase());
+                   //System.out.println(nombre.substring(0, 1).toUpperCase());
+               } else {
+                   System.err.println((i++)+".- No se encotro a "+ciudad);
+               }
+       
+               seguir = consulta.next(); 
+               ciudadA=ciudad;
+           }
+           consulta.close();
+
+           select.close();
+           con.close();
+         
+         } catch (Exception ex) {
+             System.out.println(ex);
+         }       
+        
+       return Salida;
+   }
+   
+   private static Vector Leer(Connection c, String SQL) {
+       Vector v = new Vector();
+ 
+       try {
+           Statement select2 = c.createStatement();
+           ResultSet consulta2 = select2.executeQuery(SQL);
+
+               boolean seguir = consulta2.next();
+               while (seguir) {
+                   Punto p = new Punto(consulta2.getDouble("Lat"),consulta2.getDouble("Lon"),consulta2.getDouble("Alt"));
+                   v.add(p);
+                   seguir = consulta2.next(); 
+               }
+               consulta2.close();
+       } catch (Exception e) {
+           System.out.println(SQL+"\n"+e);
+       }
+       
+       return v;
+   }
+}

@@ -1,0 +1,76 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package Utilidades;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+/**
+ *
+ * @author lelguea
+ */
+public class GeoNames {
+    
+    private static String Extrae(String texto,String token) {
+        //System.err.println("buscando "+token);
+        int inicio=texto.indexOf("<"+token+">")+token.length()+2;
+        int fin=texto.indexOf("</"+token+">");
+        String Salida="";
+        if (inicio<fin) {
+            Salida=texto.substring(inicio, fin);
+        } else {
+            Salida="";
+        }
+        return Salida;
+    }      
+    
+    
+    public static String BuscaUbicacion(String Ciudad, String Pais) {
+        String Consulta="";
+        String Salida="";
+        Ciudad=Ciudad.replaceAll("á", "a");
+        Ciudad=Ciudad.replaceAll("é", "e");
+        Ciudad=Ciudad.replaceAll("í", "i");
+        Ciudad=Ciudad.replaceAll("ó", "o");
+        Ciudad=Ciudad.replaceAll("ú", "u");
+        if (Pais==null) {
+            Pais="";
+        }
+        try {
+            URL url = new URL("http://ws.geonames.org/search?maxRows=1&q="+Ciudad+"&country="+Pais);
+    
+            BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+            String str;
+
+            while ((str = in.readLine()) != null) {
+                Consulta=Consulta+str;
+            }
+            in.close();     
+        } 
+        catch (MalformedURLException e) {
+            System.err.println(e);
+        } 
+        catch (IOException e) {
+            System.err.println(e);
+        }
+        
+        //System.err.println(Consulta);
+        String Resultados=Extrae(Consulta, "totalResultsCount");
+        if (!Resultados.equalsIgnoreCase("0")) {
+            Salida=Extrae(Consulta, "lng")+","+Extrae(Consulta, "lat");
+        } else {
+            Salida="0,0";
+        }
+                
+      return Salida;
+    }
+    
+    
+
+}
